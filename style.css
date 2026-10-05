@@ -4,26 +4,32 @@
     box-sizing:border-box;
 }
 body {
-    background:linear-gradient(135deg, rgba(0, 0, 0, 0.63), rgba(167, 155, 155, 0.658));
-    size:29px;
+    background:linear-gradient(135deg, rgba(0, 0, 0, 0.904), rgba(167, 155, 155, 0.432));
+    size:30px;
+    font-family:Arial, Helvetica, sans-serif;
+
 }
 img {
     width: 40%;
+    margin-left: 30%;
+    margin-top: 20px;
     height: auto;
     justify-content: center;
     display: flex;
+    box-shadow: 10px 10px 10px rgb(29, 18, 18);
+    border-radius: 20px;
 }
 a {
+    margin-bottom: 20px;
     text-decoration: none;
-    color: white;
-    size: 29px;
-    margin: 10px;
-    border: 1px solid rgb(29, 18, 18);
-    box-shadow: 0px 0px 10px rgb(29, 18, 18);
+    color: rgba(121, 111, 111, 0.781);
+    size: 10px;
+    margin: 40px;
+    box-shadow: 0px 5px 5px 5px;
 }
 a:hover {
     color: #ff0000;
-    transition: 0.5s;
+    transition: 0.6s;
     transform: scale(1.2);
 }
 header {
@@ -38,5 +44,81 @@ form {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    
+    border-radius: 1px solid rgb(29, 18, 18);
+    line-height: 30%;
+
+}
+h1{
+    text-align: center;
+    color: rgba(94, 255, 0, 0.692);
+    font-size: 50px;
+    margin-top: 20px;
+}
+span {
+
+    color: rgba(94, 255, 0, 0.692);
+    display: flex;
+    align-items: center; color: rgb(64, 114, 57);
+    font-size: 50px;
+    margin-top: 20px;
+    align-items: center;
+}
+p {
+    text-align: left;
+    color: rgba(8, 7, 7, 0.685);
+    font-size: 70px;
+    margin-top: 40px;
+    align-items: right;
+    size: 29px;
+}
+footer{
+    text-align: center;
+    margin-top: 40%;
+    color:rgba(117, 71, 71, 0.747);
+    background: rgba(0, 0, 0, 0.637);
+}
+.hope {
+    background-color: slategrey;
+    border: 30px solid;
+    margin: 40px;
+    align-items: center;
+}
+input {
+    color:white;
+    margin-bottom: 30px;
+
+}
+input:focus{
+    transition: 0.7s;
+    translate:15px;
+    zoom: 10px;
+    background-color: rgba(0, 0, 0, 0.733);
+}
+.form-label {
+    color: rgba(226, 219, 219, 0.856);
+    font-size: 20px;
+    margin-right: 45% ;
+    margin-bottom: -10px;
+}
+button {
+    background-color: rgba(0, 0, 0, 0.733);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 45%;
+}
+button:hover {
+    background-color: rgba(0, 0, 0, 0.733);
+    color: rgb(0, 0, 0);
+    transition: 0.6s;
+    transform: scale(1.2);
+}
+.form-group {
+    margin-right: 20px;
+}
+label {
+    color: rgba(233, 228, 228, 0.808);
+    font-size: 20px;
 }
