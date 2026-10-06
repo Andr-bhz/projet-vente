@@ -1,7 +1,6 @@
-function add ($a, $b) {
-    if ($admin == $_POST['nom']) {
-        return "nom d'utilisateur incorrect";
-    }
-}
-    let $result = add($a, $b);
-    console.log("Le résultat de l'addition est : " + $result);
+const bouton =document .getElementById('theme-toggle');
+bouton.addEventListener('click',() => {
+    document.documentElement.classList.toggle('dark');
+    const estsombre=document.documentElement.classList.contains('dark');
+    localStorage.setItem('theme',estsombre ? 'dark' : 'light');
+});

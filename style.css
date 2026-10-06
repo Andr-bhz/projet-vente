@@ -104,7 +104,7 @@ input:focus{
     margin-right: 45% ;
     margin-bottom: -10px;
 }
-button {
+container{
     background-color: rgba(0, 0, 0, 0.733);
     color: white;
     border: none;
@@ -112,6 +112,9 @@ button {
     font-size: 16px;
     cursor: pointer;
     margin-left: 45%;
+.theme-toggle{
+    position: fixed;
+}
 }
 button:hover {
     background-color: rgba(0, 0, 0, 0.733);

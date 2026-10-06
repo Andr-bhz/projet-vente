@@ -54,10 +54,12 @@
              <input type="password" name="password" id="password" placeholder="******">
         </div>
     </form>
-        <button type="submit">Envoyer</button>
+        <button id="container" type="submit">Envoyer</button>
+        <button id="theme-toggle">changer de theme</button>
+        
+    <script src="script.js"></script>
     <footer>
         <p> whattsaap © 2026 Mon Site de Fruits. Tous droits réservés.</p>
     </footer>
-    <script src="script.js"></script>
 </body>
 </html>
