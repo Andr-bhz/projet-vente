@@ -20,6 +20,9 @@ img {
     border-radius: 20px;
 }
 a {
+    justify-content: space-between;
+    display: grid;
+    grid-row: 1/6;
     margin-bottom: 20px;
     text-decoration: none;
     color: rgba(121, 111, 111, 0.781);
@@ -78,6 +81,7 @@ footer{
     background: rgba(0, 0, 0, 0.637);
 }
 .hope {
+ 
     background-color: slategrey;
     border: 30px solid;
     margin: 40px;

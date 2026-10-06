@@ -1,12 +1,4 @@
-<?php 
-$admin=readline("veuillez entrer votre nom d'utilisateur : ");
-$mdp=readline("veuillez entrer votre mot de passe : ");
 
-if($admin <> $_POST['nom']) {
-    echo "nom d'utilisateur incorrect";
-}
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,18 +14,31 @@ if($admin <> $_POST['nom']) {
 </header>
 <body>
    <h1>Les <span>🍎fruits</span></h1> 
+    <div>
         <img src="coconut.jpg" alt="image" width="500" height="400" class="image1">
         <p> bonjour et bienvenue sur mon site de fruits nous vus presentons le different types de fruits <br>
     dont sur celui ci nous vous proposons le noix de coco <br>riche en vitamine:D ,<br>vitamine :C <br> et en proteines</p>
+    </div>
+    <div>
         <img src="banane.jpg" alt="image" width="500" height="400" class="image2">
         <p>la banane est un fruit tropique riche en potassium et en vitamine B6</p>
+    </div>
+    <div>
         <img src="fraise.jpg" alt="image" width="500" height="400" class="image3">
         <p>la fraise est un fruit riche en vitamine C et en antioxydants</p>
+    </div>
+    <div>
         <img src="mangue.jpg" alt="image" width="500" height="400" class="image4">
         <p>la mangue est un fruit riche en vitamine A et en fibres</p>
+    </div>
+    <div>
         <img src="kiwi.jpg" alt="image" width="500" height="400" class="image5">
         <p>le kiwi est un fruit riche en vitamine C et en potassium</p>
-    <form action="admin.php"class="hope  method="post" value="">
+    </div>
+    <ul>
+
+    </ul>
+    <form action="admin.php"class="hope"  method="post" value="">
         <div class="form-group">
             <label for="nom">Nom :</label>
             <input type="text" id="nom" name="nom" placeholder="votre nom" require>
