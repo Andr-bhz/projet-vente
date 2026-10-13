@@ -1,4 +1,4 @@
-<?php require "operateur.php" ?>
+<?php require "mode.php" ?>
 <!-- <!DOCTYPE html>
 <html lang="en">
 <head>
