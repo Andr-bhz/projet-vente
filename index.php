@@ -1,5 +1,5 @@
-
-<!DOCTYPE html>
+<?php require "operateur.php" ?>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -35,7 +35,7 @@
         <img src="kiwi.jpg" alt="image" width="500" height="400" class="image5">
         <p>le kiwi est un fruit riche en vitamine C et en potassium</p>
     </div>
-        <form action="profil.php" id="hope"  method="post" value="" >
+        <form action="" id="hope"  method="post" value="" >
             <div class="form-group">
                 <label for="nom">Nom :</label>
                 <input type="text" id="nom" name="nom" placeholder="votre nom" require>
@@ -50,8 +50,9 @@
                 <label for="password">Password:</label>
                 <input type="password" name="password" id="password" placeholder="******">
             </div>
+             <button class="container" type="submit">Envoyer</button>
         </form>
-        <button class="container" type="submit">Envoyer</button>
+       
         <button class="theme-toggle">changer de theme</button>
         <button id="accueil">revenir a l'accueil</button>
     <script src="script.js"></script>
@@ -59,4 +60,4 @@
         <p> whattsaap © 2026 Mon Site de Fruits. Tous droits réservés.</p>
     </footer>
 </body>
-</html>
+</html> -->

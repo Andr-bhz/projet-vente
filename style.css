@@ -4,6 +4,11 @@
     box-sizing:border-box;
 }
 body {
+    margin: 0px;
+    align-items: center;
+    justify-content: center;
+    min-height: 300vh;
+    display: inline-table;
     background:linear-gradient(135deg, rgba(0, 0, 0, 0.904), rgba(167, 155, 155, 0.432));
     size:30px;
     font-family:Arial, Helvetica, sans-serif;
@@ -49,13 +54,12 @@ h1{
     margin-top: 2px;
 }
 span {
-
     color: rgba(94, 255, 0, 0.692);
-    display: flex;
+    display: center;
     align-items: center; color: rgb(64, 114, 57);
-    font-size: 50px;
+    font-size: 60px;
     margin-top: 20px;
-    align-items: center;
+    line-height: 2.3;
 }
 p {
     text-align: left;
@@ -136,10 +140,9 @@ label {
     margin-right: 170px;
 }
 header {
-    padding-bottom: 40px;
-    block-size: 5%;
-    display:grid;
-    background-color: black;
+    align-items: center;
+    border-width: 80px;
+    display:center;
+    background-color: rgba(3, 3, 3, 0.788);
     position: fixed;
-
 }
