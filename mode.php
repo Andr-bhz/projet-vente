@@ -1,3 +1,8 @@
+<?php 
+   
+   echo "s en classe en classe ";
+
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -5,6 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulaire avec Mode Nuit / Sombre</title>
     <style>
+
         /* Définition des variables de couleurs pour les différents modes */
         :root {
             --bg-color: #f4f4f9;
@@ -14,9 +20,9 @@
             --input-border: #cccccc;
             --btn-bg: #007bff;
             --btn-text: #ffffff;
-        }
+}
 
-        /* Variables appliquées lorsque la classe 'dark-mode' est active sur la balise <html> */
+           /* Variables appliquées lorsque la classe 'dark-mode' est active sur la balise <html> */
         html.dark-mode {
             --bg-color: #121212;
             --text-color: #e0e0e0;
@@ -123,7 +129,7 @@
             font-size: 13px;
         }
     </style>
-</head>
+</head> 
 <body>
 
     <div class="form-container">
@@ -145,7 +151,7 @@
             <div class="form-group">
                 <label for="nom">Nom :</label>
                 <input type="text" id="nom" name="nom" required>
-            </div>
+            </div>     
 
             <div class="form-group">
                 <label for="email">E-mail :</label>
