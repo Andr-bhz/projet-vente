@@ -4,5 +4,5 @@
     box-sizing: border-box;
 }
 body {
-    
+    background: linear-gradient(120deg,white,rgba(192, 178, 178, 0.733));
 }

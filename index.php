@@ -1,4 +1,5 @@
-<?php require "mode.php" ?>
+<!-- <?php require "mode.php" ?> -->
+<?php require "design.php";?>
 <!-- <!DOCTYPE html>
 <html lang="en">
 <head>
